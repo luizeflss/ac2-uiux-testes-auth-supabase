@@ -1,0 +1,11 @@
+# Nunca versionar chaves de API, senhas ou tokens reais.
+# Se exportar o environment preenchido do Postman, salve com o sufixo
+# ".local.postman_environment.json" para que ele seja ignorado pelo Git.
+*.local.postman_environment.json
+.env
+.env.*
+
+# Arquivos temporários do Excel/Windows
+~$*.xlsx
+Thumbs.db
+desktop.ini
